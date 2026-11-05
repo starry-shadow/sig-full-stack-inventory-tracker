@@ -1,4 +1,26 @@
-.counter {
+.nav-container{
+  display: flex;
+  background-color: crimson;
+  align-items: center;
+  padding: 5px;
+}
+/* .left-buttons{
+  background-color: inherit;
+  margin-left: auto;
+} */
+.left-buttons{
+  background-color: inherit;
+}
+.right-buttons{
+  /* display: block; */
+  background-color: inherit;
+  margin-left: auto;
+}
+div{
+ background-color: khaki; 
+}
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +203,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */

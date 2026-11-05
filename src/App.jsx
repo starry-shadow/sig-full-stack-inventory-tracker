@@ -9,7 +9,18 @@ function App() {
 
   return (
     <>
-      <section id="center">
+      <nav className="nav-container">
+        <div className="left-buttons">
+          <button>filter</button>
+        </div>
+        <div className="right-buttons">
+          <button>Add Item</button>
+        </div>
+      </nav>
+      {/* <div>
+
+      </div> */}
+      {/* <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
@@ -114,7 +125,7 @@ function App() {
       </section>
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+      <section id="spacer"></section> */}
     </>
   )
 }
